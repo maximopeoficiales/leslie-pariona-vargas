@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --beige-light: #F5E6D3;
+  --beige-medium: #E8D4BF;
+  --beige-dark: #D4C4B0;
+  --brown-light: #C9B89A;
+  --brown-medium: #8B7355;
+  --brown-dark: #6B5D4F;
+  --text-primary: #5D4E37;
+}
+
+body {
+  color: var(--text-primary);
+  background: #FEFAF5;
+}
